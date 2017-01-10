@@ -1,0 +1,192 @@
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(fontawesome.ttf);
+    font-weight: 400;
+    font-style: normal
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%
+}
+
+.fa-2x {
+    font-size: 2em
+}
+
+.fa-3x {
+    font-size: 3em
+}
+
+.fa-4x {
+    font-size: 4em
+}
+
+.fa-5x {
+    font-size: 5em
+}
+.fa-55x {
+    font-size: 5.5em
+}
+.fa-6x {
+    font-size: 6em
+}
+.fa-65x {
+    font-size: 6.5em
+}
+.fa-7x {
+    font-size: 7em
+}
+
+.fa-pull-left {
+    float: left
+}
+
+.fa-pull-right {
+    float: right
+}
+
+.fa.fa-pull-left {
+    margin-right: .3em
+}
+
+.fa.fa-pull-right {
+    margin-left: .3em
+}
+
+.pull-right {
+    float: right
+}
+
+.pull-left {
+    float: left
+}
+
+.fa.pull-left {
+    margin-right: .3em
+}
+
+.fa.pull-right {
+    margin-left: .3em
+}
+
+.fa-spin {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear
+}
+
+.fa-pulse {
+    -webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8)
+}
+
+@-webkit-keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+@keyframes fa-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+.fa-rotate-90 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.fa-rotate-180 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.fa-rotate-270 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg)
+}
+
+.fa-flip-horizontal {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1)
+}
+
+.fa-flip-vertical {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1)
+}
+
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-rotate-90 {
+    filter: none
+}
+
+
+.fa-angle-right:before { content: '\f10'; } /* '༐' */
+.fa-heart:before { content: '\e800'; } /* '' */
+.fa-search:before { content: '\e801'; } /* '' */
+.fa-link:before { content: '\e802'; } /* '' */
+.fa-download:before { content: '\e803'; } /* '' */
+.fa-print:before { content: '\e808'; } /* '' */
+.fa-camera:before { content: '\e809'; } /* '' */
+.fa-users:before { content: '\e80a'; } /* '' */
+.fa-picture:before { content: '\e80d'; } /* '' */
+.fa-chart-bar:before { content: '\e813'; } /* '' */
+.fa-pencil:before { content: '\e815'; } /* '' */
+.fa-calendar:before { content: '\e816'; } /* '' */
+.fa-picture-1:before { content: '\e818'; } /* '' */
+.fa-attention-1:before { content: '\e819'; } /* '' */
+.fa-chat-1:before { content: '\e81a'; } /* '' */
+.fa-megaphone:before { content: '\e81b'; } /* '' */
+.fa-bars:before { content: '\f0c9'; } /* '' */
+.fa-up-dir:before { content: '\f0d8'; } /* '' */
+.fa-right-dir:before { content: '\f0da'; } /* '' */
+.fa-sort-up:before { content: '\f0de'; } /* '' */
+.fa-chat-empty:before { content: '\f0e6'; } /* '' */
+.fa-doc-text:before { content: '\f0f6'; } /* '' */
+.fa-location-arrow:before { content: '\f124'; } /* '' */
+.fa-angle-circled-right:before { content: '\f138'; } /* '' */
+.fa-child:before { content: '\f1ae'; } /* '' */
+.fa-newspaper:before { content: '\f1ea'; } /* '' */
+.fa-help-circled:before { content: '\f29c'; }
+.fa-question-circle-o:before { content: '\f29c'; } /* '' */
+.fa-user-circle-o:before { content: '\f2be'; } /* '' */
